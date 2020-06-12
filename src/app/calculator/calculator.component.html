@@ -1,0 +1,23 @@
+<div class="box">
+  <div class="display">
+    <input type="text" [(ngModel)]="text" class="input" (keypress)="keyPress($event)" (keyup)="keyUp($event)">
+    <input type="text" readonly class="binary-input" [(ngModel)]="text2">
+  </div>
+
+  <div class="przyciski">
+
+    <div class="one">
+      <button (click)="onDigitClick($event)">0</button>
+      <button (click)="onDigitClick($event)">1</button>
+
+    </div>
+    <div class="one">
+      <button class="operacja" (click)="onOperationClick($event)">+</button>
+      <button class="operacja" (click)="onOperationClick($event)">-</button>
+
+    </div>
+    <div class="one">
+      <button class="clear" (click)="clear()">C</button>
+      <button class="submit" (click)="onSubmit()">=</button>
+    </div>
+  </div>

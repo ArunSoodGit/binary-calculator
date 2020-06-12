@@ -1,0 +1,42 @@
+.input{
+  border-right: none;
+  width: 164px;
+  position:relative;
+  left:2px;
+  top:2px;
+  height:35px;
+  color:black;
+  background-color:#bccd95;
+  font-size:21px;
+  text-align:right;
+}
+.binary-input{
+  border-left: none;
+  width: 44px;
+  height:35px;
+  position:relative;
+  left:2px;
+  top:2px;
+  color:black;
+  background-color:#bccd95;
+  font-size:21px;
+  text-align:right;
+}
+.box{
+  background-color: #3d4543;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  left: 40%;
+}
+.display
+{
+  background-color:#222;
+  width:220px;
+  position:relative;
+  left:15px;
+  top:20px;
+  height:40px;
+}
